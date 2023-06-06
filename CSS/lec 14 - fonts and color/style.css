@@ -1,0 +1,68 @@
+/* adding external font family through import */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+
+p{
+    /* styling of text  */
+    font-style: oblique;
+
+    /* size of text  */
+    font-size: 20px;
+
+    /* the font-family property is used to specify the typeface or font family for rendering text */
+    font-family: cursive; 
+    /* using external font family through link and import  */
+    font-family: 'Bruno Ace', cursive;
+
+    /* the font-weight property is used to specify the weight or thickness of the text */
+    /* normal: Sets the text to the default weight. This is the same as using 400.
+    bold: Sets the text to a bold or heavier weight. This is the same as using 700.
+    lighter: Sets the text to a lighter weight than the parent element. The specific weight is relative and depends on the available font weights in the font family.
+    bolder: Sets the text to a bolder weight than the parent element. The specific weight is relative and depends on the available font weights in the font family. */
+    /* Numeric values can also be used to define the font weight explicitly. The values range from 100 (thin) to 900 (extra bold) */
+    font-weight: 900;
+    font-weight: lighter;
+
+    /* the line-height property is used to control the spacing between lines of text within an element. */
+    /* A unitless value: This value is multiplied by the font size to determine the line height. For example, a value of 1.5 would result in a line height of 1.5 times the font size.
+    A length value: This value specifies an absolute line height in a specific unit, such as pixels (px) or ems (em).
+    A percentage value: This value is relative to the font size of the element. For example, a value of 150% would result in a line height of 1.5 times the font size. */
+    line-height: 18px;
+
+}
+
+#para3{
+    /* 1. Color Names:
+    CSS provides a set of predefined color names, such as red, blue, green, yellow, etc. You can use these names directly in your CSS code. */
+    background-color: yellow;
+    color:brown;
+}
+
+#para2{
+    /* 2. Hexadecimal Notation:
+    Colors can be represented using a 6-digit hexadecimal value preceded by a hash (#). The first two digits represent the red component, the next two represent green, and the final two represent blue. Each component can range from 00 to FF, where 00 is the lowest intensity and FF is the highest. */
+    background-color: #7fff00;
+    color: #ff6347;
+}
+
+.para1{
+    /* 3. RGB Notation:
+    Colors can be defined using the RGB (Red, Green, Blue) notation. Each component can be specified as a value between 0 and 255, representing the intensity of the respective color. The RGB values are enclosed in rgb() parentheses. */
+    background-color: rgb(138, 43, 226);
+    color: rgb(255, 192, 203);
+}
+
+h2{
+    /* 4. RGBA Notation:
+    RGBA is an extension of RGB notation that includes an additional value for opacity or alpha. The alpha value ranges from 0 (completely transparent) to 1 (completely opaque). The RGBA values are enclosed in rgba() parentheses. */
+    background-color: rgba(255, 192, 203,0.5);
+    color: rgba(255, 0, 0,0.4);
+}
+
+.para4{
+    /* 5. HSL Notation:
+    Colors can also be defined using the HSL (Hue, Saturation, Lightness) notation. The hue is represented as an angle between 0 and 360 degrees. Saturation and lightness are represented as percentages. */
+    /* HSLA is an extension of HSL notation that includes an additional value for opacity or alpha, similar to RGBA. The HSLA values are enclosed in hsla() parentheses. */
+    background-color: hsla(180, 100%, 25%,0.9);
+    color: hsla(174, 72%, 56%,0.5);
+}

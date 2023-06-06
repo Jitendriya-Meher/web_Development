@@ -1,0 +1,86 @@
+/* iniversal selector  */
+*{
+    margin: 0;
+    padding: 0;
+
+    /* The box-sizing property in CSS allows you to control how the width and height of an element are calculated, including or excluding padding and border. When using the value border-box, the width and height properties will include the element's padding and border. */
+    /* By applying this property to an element or a CSS selector, you ensure that the specified width and height values will include the padding and border dimensions. This can be useful when designing layouts, as it simplifies calculations and ensures consistent sizing. */
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: aquamarine;
+
+    /* border-style */
+    /* border-style property is used to define the style of an element's border */
+    /* none: No border is displayed.
+    solid: A solid line border.
+    dashed: A series of short dashes.
+    dotted: A series of small dots.
+    double: Two parallel solid lines.
+    groove: Looks as if it is carved into the page.
+    ridge: Looks as if it is coming out of the page.
+    inset: Looks as if it is embedded into the page.
+    outset: Looks as if it is coming out of the page, opposite of inset. */
+    border-style: dotted;
+
+    /* border-color */
+    /* border-color property is used to specify the color of an element's border  */
+    border-color: red blue green yellow;
+    /* This will set a red border for the top side, a blue border for the right side, a green border for the bottom side, and a yellow border for the left side.  */
+    border-color: black;
+
+    /* border-width */
+    /* border-width property is used to specify the width of an element's border. It allows you to control the thickness of the border. */
+    border-width: 2px;
+
+    /* peticular border side */
+    border-bottom: 5px solid black;
+
+    /* shorthand property for border*/
+    border: 3px solid black;
+
+    /* border-radius  */
+    /* border-radius property is used to control the curvature or roundness of an element's corners. It allows you to create rounded borders for elements. */
+    border-radius: 5px;
+
+    /* In CSS, the height and width properties are used to define the dimensions of an element, specifying its height and width respectively. */
+    width: 350px;
+    height: 100px;
+}
+
+.para1{
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 350px;
+
+    /* In CSS, the padding property is used to set the spacing between an element's content and its border. It defines the internal space within the element. */
+    padding: 40px;
+
+    /* In CSS, the margin property is used to define the spacing outside an element, creating space between it and other elements. It controls the external space around an element. */
+    margin: 80px;
+}
+
+.para2{
+    background-color: beige;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 350px;
+
+    margin: 5px 10px 15px 20px;
+    /* This will set a margin of 5 pixels for the top side, 10 pixels for the right side, 15 pixels for the bottom side, and 20 pixels for the left side. */
+
+    padding: 20px 40px;
+    /* This will apply a padding of 20 pixels to the top and bottom sides and 40 pixels to the right and left sides of the element. The order of values follows the clockwise direction, starting from the top and moving to the right, bottom, and left. */
+}
+
+.para3{
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 350px;
+
+    padding: 5px 10px 15px 20px;
+    /* This will set a padding of 5 pixels for the top side, 10 pixels for the right side, 15 pixels for the bottom side, and 20 pixels for the left side. */
+}
